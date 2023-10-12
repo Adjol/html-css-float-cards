@@ -1,0 +1,54 @@
+/* font-family: 'Fredoka', sans-serif; */
+
+.container{
+    font-family: 'Fredoka', sans-serif;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+#page_title{
+    font-size: 50px;
+    font-weight: 600;
+    color: brown;
+    padding: 30px;
+}
+
+
+.team_paragraph{
+    font-weight: 500;
+    
+}
+
+
+.row {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+
+    margin: 100px 0;
+}
+
+.card {
+    height: 100%;
+    width: calc(100% / 3);
+    background-color: aqua;
+    background-image: url(img/male1.png);
+    float: left;
+}
+
+.photo{
+    height: 100px;
+    float: left;
+}
+
+.info{
+    float: left;
+    padding: 20px;
+    text-align: start;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
