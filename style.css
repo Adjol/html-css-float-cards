@@ -6,6 +6,9 @@
     margin: auto;
     text-align: center;
 }
+
+/* main title */
+
 #page_title{
     font-size: 50px;
     font-weight: 600;
@@ -13,39 +16,55 @@
     padding: 30px;
 }
 
+/* first paragraph */
 
 .team_paragraph{
     font-weight: 500;
     
 }
 
+/* row dimension */
 
 .row {
     height: 100px;
     width: 100%;
-    background-color: black;
-
     margin: 100px 0;
 }
 
+
+/* floating style card */
+
 .card {
     height: 100%;
-    width: calc(100% / 3);
-    background-color: aqua;
-    background-image: url(img/male1.png);
+    width: calc((100% / 3) - 20px) ;
+    margin: auto;
+    background-color: #0f0e17;
     float: left;
+    border: solid 10px white ;
+    box-sizing: content-box;
 }
+
+
 
 .photo{
-    height: 100px;
+    height: 100%;
     float: left;
 }
 
+
+/* contact info */
 .info{
+    color: white;
     float: left;
     padding: 20px;
     text-align: start;
+    width: 250px;
 }
+/* mail text color in info card */
+.mail{
+    color: rgb(52, 52, 239);
+}
+
 
 *{
     margin: 0;
